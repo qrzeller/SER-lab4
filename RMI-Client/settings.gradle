@@ -1,0 +1,4 @@
+rootProject.name = 'RMI-Client'
+include ':RMI-Interfaces'
+project(':RMI-Interfaces').projectDir = new File('../RMI-Interfaces')
+

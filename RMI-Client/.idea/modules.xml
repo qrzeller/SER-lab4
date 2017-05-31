@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMI-Client.iml" filepath="$PROJECT_DIR$/.idea/modules/RMI-Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMI-Client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/RMI-Client_main.iml" group="RMI-Client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMI-Client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/RMI-Client_test.iml" group="RMI-Client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/712093795/RMI-Interfaces.iml" filepath="$PROJECT_DIR$/.idea/modules/712093795/RMI-Interfaces.iml" group="RMI-Interfaces" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/712093795/RMI-Interfaces_main.iml" filepath="$PROJECT_DIR$/.idea/modules/712093795/RMI-Interfaces_main.iml" group="RMI-Interfaces" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/712093795/RMI-Interfaces_test.iml" filepath="$PROJECT_DIR$/.idea/modules/712093795/RMI-Interfaces_test.iml" group="RMI-Interfaces" />
+    </modules>
+  </component>
+</project>
