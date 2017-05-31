@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/712093795/RMI-Interfaces.iml" filepath="$PROJECT_DIR$/.idea/modules/712093795/RMI-Interfaces.iml" group="RMI-Interfaces" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/712093795/RMI-Interfaces_main.iml" filepath="$PROJECT_DIR$/.idea/modules/712093795/RMI-Interfaces_main.iml" group="RMI-Interfaces" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/712093795/RMI-Interfaces_test.iml" filepath="$PROJECT_DIR$/.idea/modules/712093795/RMI-Interfaces_test.iml" group="RMI-Interfaces" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/241086468/RMI-Interfaces.iml" filepath="$PROJECT_DIR$/.idea/modules/241086468/RMI-Interfaces.iml" group="RMI-Interfaces" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/241086468/RMI-Interfaces_main.iml" filepath="$PROJECT_DIR$/.idea/modules/241086468/RMI-Interfaces_main.iml" group="RMI-Interfaces" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/241086468/RMI-Interfaces_test.iml" filepath="$PROJECT_DIR$/.idea/modules/241086468/RMI-Interfaces_test.iml" group="RMI-Interfaces" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMI-Server.iml" filepath="$PROJECT_DIR$/.idea/modules/RMI-Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMI-Server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/RMI-Server_main.iml" group="RMI-Server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMI-Server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/RMI-Server_test.iml" group="RMI-Server" />
