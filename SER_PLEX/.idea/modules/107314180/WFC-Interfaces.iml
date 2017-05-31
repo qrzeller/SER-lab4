@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":WFC-Interfaces" external.linked.project.path="$MODULE_DIR$/../../../WFC-Interfaces" external.root.project.path="$MODULE_DIR$/../../../PLEX-Admin" external.system.id="GRADLE" external.system.module.group="ch.heigvd.iict.ser.plex" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
+<module external.linked.project.id=":WFC-Interfaces" external.linked.project.path="$MODULE_DIR$/../../../WFC-Interfaces" external.root.project.path="$MODULE_DIR$/../../../WFC" external.system.id="GRADLE" external.system.module.group="ch.heigvd.iict.ser.plex" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../../../WFC-Interfaces/build/classes/main" />
     <output-test url="file://$MODULE_DIR$/../../../WFC-Interfaces/build/classes/test" />
     <exclude-output />
