@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/PLEX-Admin" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/PLEX-Admin" />
+            <option value="$PROJECT_DIR$/WFC-Interfaces" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/WFC" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/WFC" />
+            <option value="$PROJECT_DIR$/WFC-Interfaces" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/WFC-Interfaces" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/WFC-Interfaces" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
