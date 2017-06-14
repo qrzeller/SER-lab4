@@ -32,7 +32,7 @@ public class PlexMediaServer implements RemotePrintToJson {
     }
 
     public String getJsonPrint() {
-        return controleurMedia.getJSONProjections();
+        return controleurMedia.getJSONProjectionsToSend();
     }
 
 }
