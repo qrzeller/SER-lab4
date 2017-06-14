@@ -8,6 +8,7 @@ public class ControleurMedia {
 	private ControleurGeneral ctrGeneral;
 	private static MainGUI mainGUI;
 	private ORMAccess ormAccess;
+	private String JSONProjections = "empty";
 	
 	private GlobalData globalData;
 
@@ -16,6 +17,7 @@ public class ControleurMedia {
 		ControleurMedia.mainGUI=mainGUI;
 		this.ormAccess=ormAccess;
 	}
+
 
 	public void sendJSONToMedia(){
 		new Thread(){
@@ -33,4 +35,7 @@ public class ControleurMedia {
 		}.start();
 	}
 
+	public String getJSONProjections() {
+		return JSONProjections;
+	}
 }

@@ -8,6 +8,8 @@ import ch.heigvd.iict.ser.imdb.models.*;
 import com.thoughtworks.xstream.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.rmi.RemoteException;
+import java.rmi.server.ExportException;
 import java.util.Map;
 
 public class ControleurGeneral {
@@ -28,7 +30,15 @@ public class ControleurGeneral {
 		ctrFilms = new ControleurFilms(ormAccess, mainGUI);
 		ctrProjections.refreshProjectionsList();
 		ctrFilms.refreshFilmsList();
-		ctrWFC = new ControleurWFC(this, mainGUI);
+        //adding connection to controller
+		try {
+            ctrWFC = new ControleurWFC(this, mainGUI);
+        }catch (RemoteException e){
+
+            System.out.println("error creating controller : "+this.getClass());
+
+            e.printStackTrace();
+        }
 		ctrMedia = new ControleurMedia(this, mainGUI, ormAccess);
 		ctrXMLCreation = new ControleurXMLCreation(this, mainGUI, ormAccess);
 	}

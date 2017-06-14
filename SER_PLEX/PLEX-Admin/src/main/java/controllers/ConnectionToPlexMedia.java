@@ -30,7 +30,7 @@ public class ConnectionToPlexMedia implements RemotePrintToJson {
     }
 
     public String getJsonPrint() {
-        return controleurMedia.getProjectionsEnJson();
+        return controleurMedia.getJSONProjections();
     }
 
 }
