@@ -42,7 +42,6 @@ class PlexMedia extends JFrame{
         private void printJSON(){
             try {
                 Registry registry = LocateRegistry.getRegistry(9998);
-                //IJsonPrint iJsonPrint = (IJsonPrint) registry.lookup("PlexMediaConnection");
                 RemotePrintToJson iJsonPrint = (RemotePrintToJson) Naming.lookup("//localhost:9998/PlexMediaConnection");
 
                 System.out.println("connexion OK");

@@ -19,12 +19,14 @@ public class ConnectionToPlexMedia implements RemotePrintToJson {
 
     public void startServer() {
         try {
+            System.out.println("badbubf");
             Registry registry = LocateRegistry.createRegistry(9998);
             RemotePrintToJson printJson = (RemotePrintToJson) UnicastRemoteObject.exportObject(this, 9998);
             registry.bind("PlexMediaConnection", printJson);
             System.out.println("serveur PLEX créé");
         } catch (Exception e) {
             //System.out.println(e.getMessage());
+            System.out.println("Registry for Plex medida not created"+this.getClass());
             e.printStackTrace();
         }
     }

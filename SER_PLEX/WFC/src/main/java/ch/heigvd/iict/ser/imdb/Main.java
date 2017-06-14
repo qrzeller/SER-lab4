@@ -83,8 +83,10 @@ public class Main {
             try {
                 Registry rmiRegistry = LocateRegistry.createRegistry(9999);
                 IServerApi rmiService = (IServerApi) UnicastRemoteObject.exportObject(this, 9999);
+                System.out.println("Registry 9999 created ");
                 rmiRegistry.bind("RMI_Service", rmiService);
             } catch (Exception ex) {
+                System.out.println("registry 9999 not created"+this.getClass());
                 ex.printStackTrace();
             }
         }
