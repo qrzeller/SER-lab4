@@ -16,8 +16,8 @@ public class ControleurGeneral {
 	private static ORMAccess ormAccess;
 	private ControleurProjections ctrProjections; 
 	private ControleurFilms ctrFilms;
-
-	//private ControleurWFC ctrWFC;
+	//Was commented
+	private ControleurWFC ctrWFC;
 	private ControleurMedia ctrMedia; 
 	private ControleurXMLCreation ctrXMLCreation;
 
@@ -28,7 +28,7 @@ public class ControleurGeneral {
 		ctrFilms = new ControleurFilms(ormAccess, mainGUI);
 		ctrProjections.refreshProjectionsList();
 		ctrFilms.refreshFilmsList();
-
+		ctrWFC = new ControleurWFC(this, mainGUI);
 		ctrMedia = new ControleurMedia(this, mainGUI, ormAccess);
 		ctrXMLCreation = new ControleurXMLCreation(this, mainGUI, ormAccess);
 	}

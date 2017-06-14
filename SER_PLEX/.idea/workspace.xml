@@ -94,16 +94,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WFC/src/main/java/ch/heigvd/iict/ser/imdb/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+            <state relative-caret-position="990">
+              <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2519#2520#0" expanded="true" />
-                <element signature="e#2561#2562#0" expanded="true" />
+                <element signature="e#2678#2679#0" expanded="true" />
+                <element signature="e#2720#2721#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControleurGeneral.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PLEX-Admin/src/main/java/controllers/ControleurGeneral.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1050,7 +1060,6 @@
         <option value="$PROJECT_DIR$/WFC/src/main/java/ch/heigvd/iict/ser/imdb/db/MySQLAccess.java" />
         <option value="$PROJECT_DIR$/WFC-Interfaces/src/ch/heigvd/iict/ser/rmi/IServerApi.java" />
         <option value="$PROJECT_DIR$/PLEX-Admin/src/main/java/controllers/ORMAccess.java" />
-        <option value="$PROJECT_DIR$/PLEX-Admin/src/main/java/controllers/ControleurGeneral.java" />
         <option value="$PROJECT_DIR$/WFC-Interfaces/build.gradle" />
         <option value="$PROJECT_DIR$/PLEX-Admin/settings.gradle" />
         <option value="$PROJECT_DIR$/WFC/build.gradle" />
@@ -1058,6 +1067,7 @@
         <option value="$PROJECT_DIR$/PLEX-Admin/build.gradle" />
         <option value="$PROJECT_DIR$/PLEX-Admin/src/main/resources/hibernate.properties" />
         <option value="$PROJECT_DIR$/WFC/src/main/java/ch/heigvd/iict/ser/imdb/Main.java" />
+        <option value="$PROJECT_DIR$/PLEX-Admin/src/main/java/controllers/ControleurGeneral.java" />
       </list>
     </option>
   </component>
@@ -1199,6 +1209,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PLEX-Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1695,13 +1731,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projections.xml" />
-    <entry file="file://$PROJECT_DIR$/PLEX-Admin/src/main/java/controllers/ControleurGeneral.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="115" column="30" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/io/File.java" />
     <entry file="file://$PROJECT_DIR$/WFC/src/main/java/ch/heigvd/iict/ser/imdb/Worker.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1868,13 +1897,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WFC/src/main/java/ch/heigvd/iict/ser/imdb/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        <state relative-caret-position="990">
+          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2519#2520#0" expanded="true" />
-            <element signature="e#2561#2562#0" expanded="true" />
+            <element signature="e#2678#2679#0" expanded="true" />
+            <element signature="e#2720#2721#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PLEX-Admin/src/main/java/controllers/ControleurGeneral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>

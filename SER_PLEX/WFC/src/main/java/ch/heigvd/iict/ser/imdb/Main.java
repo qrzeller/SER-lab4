@@ -5,6 +5,7 @@ import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
+import java.util.Date;
 import java.util.Observable;
 import java.util.Observer;
 import java.util.Scanner;
@@ -63,6 +64,9 @@ public class Main {
                 this.lastData = worker.run();
 
                 //TODO notify client
+                //we notify them as is :
+                serverRMI.setChanged();
+                serverRMI.notifyObservers(new Date());
 
             }
         }
@@ -138,4 +142,4 @@ public class Main {
         }
     }
 }
-}
+
