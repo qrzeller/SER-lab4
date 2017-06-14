@@ -1,4 +1,4 @@
-package src;
+package controllers;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

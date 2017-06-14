@@ -16,13 +16,17 @@ public class ControleurMedia {
 	private static MainGUI mainGUI;
 	private ORMAccess ormAccess;
 	private String JSONProjectionsToSend = "empty";
-	
+	private PlexMediaServer media;
 	private GlobalData globalData;
 
 	public ControleurMedia(ControleurGeneral ctrGeneral, MainGUI mainGUI, ORMAccess ormAccess){
 		this.ctrGeneral=ctrGeneral;
 		ControleurMedia.mainGUI=mainGUI;
 		this.ormAccess=ormAccess;
+		System.out.println("Starting plex media server : ");
+		//starting the media server
+		media = new PlexMediaServer(this);
+		media.startServer();
 	}
 
 
@@ -102,7 +106,7 @@ public class ControleurMedia {
 					// disableHtmlEscaping permet de fixer l'encodage utilisé par l'objet gson en UTF-8 afin de correctement afficher les caractères spéciaux
 					Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
 					String projectionsPrettyFormat = gson.toJson(projections);
-
+					JSONProjectionsToSend = projectionsPrettyFormat;
 
 					// Nous créons notre fichier .json. Pour des questions d'optimisation, nous n'effectuons qu'une seule écriture
 					//  de la string contenant l'ensemble du fichier. L'encodage est fixé en UTF-8

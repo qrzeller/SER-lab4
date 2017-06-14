@@ -1,8 +1,7 @@
-package src;
-
 import javax.swing.*;
 import java.awt.*;
 import java.rmi.Naming;
+import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
@@ -40,16 +39,29 @@ class PlexMedia extends JFrame{
         }
 
         private void printJSON(){
+            controllers.RemotePrintToJson json = null;
             try {
                 Registry registry = LocateRegistry.getRegistry(9998);
-                RemotePrintToJson json = (RemotePrintToJson) Naming.lookup("//localhost:9998/PlexMediaConnection");
+                 json = (controllers.RemotePrintToJson) Naming.lookup("//localhost:9998/PlexMedia");
 
                 System.out.println("connexion OK");
 
-                System.out.println(json.getJsonPrint());
-            } catch (Exception e) {
+                } catch (Exception e) {
                 System.out.println("Error connecting to server :"+ this.getClass());
                 e.printStackTrace();
             }
+            String stringJSON = "Empty (in PlexMedia)";
+            if(json!=null) {
+                try {
+                    stringJSON = json.getJsonPrint();
+                } catch (RemoteException e) {
+                    System.out.println("Cannot invoke remote fonction RMI : " + this.getClass());
+                    e.printStackTrace();
+                }
+            }else{
+                System.out.println("The Json returned is null : " + this.getClass());
+            }
+
+            System.out.println(stringJSON);
         }
     }
