@@ -7,11 +7,11 @@ import java.rmi.server.UnicastRemoteObject;
 /**
  * Created by Quentin Zeller on 9.06.2017.
  */
-public class ConnectionToPlexMedia implements RemotePrintToJson {
+public class PlexMediaServer implements RemotePrintToJson {
 
     private final ControleurMedia controleurMedia;
 
-    public ConnectionToPlexMedia(ControleurMedia controleurMedia) {
+    public PlexMediaServer(ControleurMedia controleurMedia) {
 
         this.controleurMedia = controleurMedia;
 

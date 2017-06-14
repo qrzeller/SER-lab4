@@ -7,6 +7,8 @@ import views.*;
 
 import java.rmi.Naming;
 import java.rmi.RemoteException;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
 public class ControleurWFC extends UnicastRemoteObject implements IClientApi{
@@ -20,6 +22,7 @@ public class ControleurWFC extends UnicastRemoteObject implements IClientApi{
 		super();
 		this.controleurGeneral = controleurGeneral;
 		try {
+			Registry registry = LocateRegistry.getRegistry(9999);
 			remoteService = (IServerApi) Naming.lookup("//localhost:9999/RMI_Service");
 			remoteService.addObserver(this);
 
