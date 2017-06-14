@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PLEX-Admin.iml" filepath="$PROJECT_DIR$/.idea/modules/PLEX-Admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/WFC.iml" filepath="$PROJECT_DIR$/.idea/modules/WFC.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/107314180/WFC-Interfaces.iml" filepath="$PROJECT_DIR$/.idea/modules/107314180/WFC-Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WFC-Interfaces.iml" filepath="$PROJECT_DIR$/.idea/modules/WFC-Interfaces.iml" />
     </modules>
   </component>
 </project>
